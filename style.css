@@ -1,0 +1,57 @@
+:root{
+    --primary-color: hsl(0, 100%, 100%);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 16px;
+    font-family: verdana, sans-serif;
+}
+
+#container{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    color: var(--primary-color);
+    background-color: hsl(220, 69%, 60%);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: hsl(220, 69%, 50%);
+}
+
+label{
+    font-size: 1.5rem;
+}
+input{
+    font-size: 1.5rem;
+    padding: 5px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+#diceResults , #diceImages{
+    margin-top: 20px;
+
+}
+
+
+
+
+
+@media only screen and (max-width: 430px) {
+
+    
+}
